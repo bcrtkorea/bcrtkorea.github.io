@@ -114,8 +114,8 @@ h3 { font-size: 19px; margin: 0 0 8px; }
 
 /* speakers */
 .speakers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.speaker { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; display: grid; grid-template-columns: 54px 1fr; gap: 16px; align-items: start; }
-.avatar { width: 54px; height: 54px; border-radius: 50%; background: var(--bg); color: var(--band); display: grid; place-items: center; font-weight: 700; font-size: 17px; }
+.speaker { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; display: grid; grid-template-columns: 84px 1fr; gap: 18px; align-items: center; }
+.avatar { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; background: var(--bg); border: 3px solid var(--bg); }
 .speaker h3 { font-size: 17px; margin: 2px 0 2px; }
 .speaker .aff { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.45; }
 .speaker .topic { margin: 10px 0 0; font-size: 14.5px; color: var(--ink-2); }
