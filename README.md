@@ -6,13 +6,14 @@ GitHub Pages에 그대로 올릴 수 있는 정적 사이트(HTML/CSS)입니다.
 ## 폴더 구성
 
 ```
-index.html                 ← 모든 내용(소개, 인사말, 프로그램, 연자, 등록, 오시는 길, 포스터)
+index.html                 ← 한글 페이지 (기본으로 열림)
+index_en.html              ← 영문 페이지 (상단 KO/EN 버튼으로 전환)
 assets/css/style.css       ← 디자인(색상·글꼴·레이아웃)
 assets/img/                ← 히어로 그림, 포스터, 로고, 장지석 교수님 사진, 파비콘
 .nojekyll                  ← GitHub Pages가 파일을 그대로 서비스하도록 하는 빈 파일
 ```
 
-## 자주 고칠 곳 (index.html에서 검색)
+## 자주 고칠 곳 (index.html과 index_en.html 두 파일 모두에서 검색)
 
 | 바꿀 내용 | 검색어 |
 |---|---|
