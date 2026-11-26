@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Symposium on Breathing Control for Radiation Therapy in Korea · 5 March 2027</title>
-  <meta name="description" content="A one-afternoon symposium on CPAP and non-invasive mechanical ventilation (NIMV) for respiratory motion control in photon and particle radiation therapy. 5 March 2027, Yonsei Cancer Center, Seoul.">
-  <meta property="og:title" content="Symposium on Breathing Control for Radiation Therapy in Korea">
+  <meta name="description" content="CPAP과 비침습적 기계환기(NIMV)를 이용한 방사선치료 호흡 제어 심포지엄. 2027년 3월 5일(금), 연세암병원 서암강당.">
+  <meta property="og:title" content="Symposium on Breathing Control for Radiation Therapy in Korea · 5 March 2027">
   <meta property="og:description" content="5 March 2027 · SEOAM Auditorium (B3), Yonsei Cancer Center, Seoul">
   <meta property="og:image" content="assets/img/poster.jpg">
+  <link rel="alternate" hreflang="ko" href="index.html">
+  <link rel="alternate" hreflang="en" href="index_en.html">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Noto+Serif+KR:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -20,16 +23,22 @@
   <nav class="container nav" aria-label="Main">
     <a class="brand" href="#top"><img src="assets/img/favicon.svg" alt="">
       <span>Breathing Control 2027<small>SEOUL · 5 MARCH</small></span></a>
-    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#welcome">Welcome</a></li>
-      <li><a href="#program">Program</a></li>
-      <li><a href="#speakers">Speakers</a></li>
-      <li><a href="#registration">Registration</a></li>
-      <li><a href="#venue">Venue</a></li>
-      <li><a href="#poster">Poster</a></li>
-    </ul>
+    <div class="nav-right">
+      <ul class="nav-links">
+      <li><a href="#about">소개</a></li>
+      <li><a href="#welcome">인사말</a></li>
+      <li><a href="#program">프로그램</a></li>
+      <li><a href="#speakers">연자</a></li>
+      <li><a href="#registration">사전등록</a></li>
+      <li><a href="#venue">오시는 길</a></li>
+      <li><a href="#poster">포스터</a></li>
+      </ul>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <a href="index.html" class="active" lang="ko" aria-current="page">KO</a>
+        <a href="index_en.html" class="" lang="en" >EN</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+    </div>
   </nav>
 </header>
 
@@ -37,19 +46,18 @@
   <section class="hero" aria-labelledby="hero-title">
     <div class="container">
       <p class="eyebrow">Symposium · Seoul 2027</p>
-      <h1 id="hero-title">Symposium on Breathing Control for Radiation Therapy in Korea</h1>
+      <h1 id="hero-title" lang="en">Symposium on Breathing Control for Radiation Therapy in Korea</h1>
       <div class="hero-meta">
-        <div class="hero-date">Friday, 5 March 2027 · 13:00–18:20</div>
-        <p><strong>VENUE</strong>SEOAM Auditorium (B3), Yonsei Cancer Center, Seoul</p>
-        <p><strong>THEME</strong>CPAP · NIMV · Motion Management · Adaptive Therapy</p>
+        <div class="hero-date">2027년 3월 5일 (금) · 13:00–18:20</div>
+        <p><strong>장소</strong>연세암병원 서암강당 (B3)</p>
+        <p><strong>주제</strong>CPAP · NIMV · 호흡 움직임 관리 · 적응형 치료</p>
       </div>
       <div class="btns">
-        <a class="btn btn-primary" href="#program">View Program</a>
-        <a class="btn btn-ghost" href="#registration">Registration</a>
+        <a class="btn btn-primary" href="#program">프로그램 보기</a>
+        <a class="btn btn-ghost" href="#registration">사전등록</a>
       </div>
       <div class="hero-art">
-        <img src="assets/img/hero_illustration.png" width="1615" height="750"
-             alt="Illustration of a patient on a treatment couch wearing an NIMV mask connected to a ventilator, with the abdomen inside a ring gantry and a breathing trace changing from free breathing to small, fast NIMV60 breaths.">
+        <img src="assets/img/hero_illustration.png" width="1615" height="750" alt="NIMV 마스크를 쓴 환자가 벤틸레이터와 연결된 채 치료 테이블에 누워 있고, 복부가 링 갠트리 안에 들어가 있는 그림. 호흡 파형이 자유 호흡에서 작고 빠른 NIMV60 호흡으로 바뀝니다.">
       </div>
     </div>
   </section>
@@ -57,25 +65,25 @@
   <section id="about" aria-labelledby="about-title">
     <div class="container about-grid">
       <div class="prose">
-        <p class="section-label">About the Symposium</p>
-        <h2 id="about-title">Control the breath, not just the margin</h2>
-        <p class="lead">Respiratory motion is still one of the largest uncertainties in thoracic and upper-abdominal radiotherapy.</p>
-        <p>Tumours can move 5 to 20 mm with every breath. That motion widens margins, adds dose to the lung, liver and bowel and, in particle therapy, shifts the beam range itself. Coaching, compression, breath-hold and gating all help, but each one depends on the patient or gives something away.</p>
-        <p>Non-invasive respiratory support offers another route, which is to set the breathing pattern for the patient. CPAP raises lung volume and steadies the breath. Non-invasive mechanical ventilation (NIMV) at about 60 breaths per minute with PEEP keeps motion small, regular and reproducible, without sedation and with little patient training.</p>
-        <p>In Korea, a growing number of centres already treat patients this way, in both photon and particle therapy. This symposium brings their radiation oncologists and medical physicists together for one afternoon to share protocols, workflows and lessons from the clinic, with a live ventilator demonstration between the sessions.</p>
+        <p class="section-label">심포지엄 소개</p>
+        <h2 id="about-title">마진을 넓히기 전에, 호흡을 조절합니다</h2>
+        <p class="lead">호흡에 따른 종양 움직임은 흉부·상복부 방사선치료에서 여전히 가장 큰 불확실성 중 하나입니다.</p>
+        <p>종양은 숨을 쉴 때마다 5–20 mm까지 움직입니다. 이 움직임은 치료 마진을 넓히고 폐·간·장의 선량을 높이며, 입자치료에서는 빔의 비정(range)까지 바꿉니다. 호흡 코칭, 복부 압박, 호흡 정지, 게이팅 모두 도움이 되지만, 각 방법은 환자의 협조에 의존하거나 무언가를 포기해야 합니다.</p>
+        <p>비침습적 호흡 보조는 다른 길을 제시합니다. 환자 대신 기계가 호흡 패턴을 정해 주는 것입니다. CPAP은 폐 용적을 늘리고 호흡을 안정시킵니다. PEEP과 함께 분당 약 60회로 환기하는 비침습적 기계환기(NIMV)는 진정이나 긴 훈련 없이도 움직임을 작고, 규칙적이며, 재현성 있게 만듭니다.</p>
+        <p>국내에서도 이미 여러 기관이 광자치료와 입자치료 모두에서 CPAP과 NIMV로 환자의 호흡을 조절하며 치료하고 있습니다. 이번 심포지엄은 이 경험을 가진 방사선종양학과 의사와 의학물리학자가 한자리에 모여 프로토콜, 워크플로우, 임상 현장의 교훈을 나누는 자리이며, 세션 사이에는 벤틸레이터 현장 시연도 진행합니다.</p>
       </div>
       <div>
         <div class="pillars">
-          <div class="pillar"><span class="tag">SESSION I</span><h3>CPAP in clinical practice</h3>
-            <p>How Korean centres use continuous positive airway pressure to raise lung volume and calm the breath during treatment.</p></div>
-          <div class="pillar"><span class="tag">SESSION II</span><h3>Building an NIMV program</h3>
-            <p>Physics, workflow and team education behind bringing NIMV into photon and particle therapy.</p></div>
-          <div class="pillar"><span class="tag">SESSION III</span><h3>NIMV-60p and beyond</h3>
-            <p>Rapid, shallow ventilation at 60 breaths per minute, and its combination with deep-inspiration breath-hold.</p></div>
-          <div class="pillar"><span class="tag">LIVE</span><h3>Hands-on demonstration</h3>
-            <p>See the ventilators, masks and settings at work during a one-hour demonstration break.</p></div>
+          <div class="pillar"><span class="tag">SESSION I</span><h3>CPAP 임상 적용</h3>
+            <p>국내 기관들이 CPAP으로 폐 용적을 늘리고 치료 중 호흡을 안정시키는 방법을 소개합니다.</p></div>
+          <div class="pillar"><span class="tag">SESSION II</span><h3>NIMV 프로그램 구축</h3>
+            <p>광자·입자치료에 NIMV를 도입하기 위한 물리, 워크플로우, 팀 교육을 다룹니다.</p></div>
+          <div class="pillar"><span class="tag">SESSION III</span><h3>NIMV-60p와 그 이후</h3>
+            <p>분당 60회의 빠르고 얕은 환기, 그리고 심흡기 호흡정지(DIBH)와의 결합을 다룹니다.</p></div>
+          <div class="pillar"><span class="tag">LIVE</span><h3>현장 시연</h3>
+            <p>1시간의 시연 시간 동안 벤틸레이터, 마스크, 설정을 직접 확인할 수 있습니다.</p></div>
         </div>
-        <p class="audience">For radiation oncologists, medical physicists, radiation therapists, nurses and respiratory care professionals.</p>
+        <p class="audience">방사선종양학과 의사, 의학물리학자, 방사선사, 간호사, 호흡치료 관련 전문가를 대상으로 합니다.</p>
       </div>
     </div>
   </section>
@@ -83,69 +91,69 @@
   <section id="welcome" class="section-alt" aria-labelledby="welcome-title">
     <div class="container welcome">
       <figure class="portrait">
-        <img src="assets/img/organizer_jschang.jpg" width="480" height="600" alt="Portrait of Jee Suk Chang">
-        <figcaption><strong>Jee Suk Chang, MD, PhD</strong>Organizer<br>Department of Radiation Oncology<br>Yonsei Cancer Center, Yonsei University College of Medicine</figcaption>
+        <img src="assets/img/organizer_jschang.jpg" width="480" height="600" alt="장지석 교수 사진">
+        <figcaption><strong>장지석 교수</strong>Organizer<br>연세대학교 의과대학 방사선종양학교실<br>연세암병원</figcaption>
       </figure>
       <div>
-        <p class="section-label">Welcome Message</p>
-        <h2 id="welcome-title">Bringing Korea&rsquo;s breathing-control experience into one room</h2>
+        <p class="section-label">인사말</p>
+        <h2 id="welcome-title">국내 호흡 제어 경험을 한자리에</h2>
         <blockquote>
-          <p>Dear colleagues,</p>
-          <p>It is my great pleasure to welcome you to the Symposium on Breathing Control for Radiation Therapy in Korea, held on 5 March 2027 at Yonsei Cancer Center.</p>
-          <p>Over the past few years, CPAP and non-invasive mechanical ventilation have moved from early experience to routine practice at several Korean centres. Each team has learned how to select patients, choose settings, train staff and verify motion, often on its own. We believe now is the time to bring this experience together.</p>
-          <p>The afternoon has three sessions. The first covers clinical experience with CPAP, the second the physics and teamwork behind implementing NIMV, and the third the newest approaches built on NIMV-60. Between the sessions, you can see the ventilators at work in a live demonstration.</p>
-          <p>I hope this meeting becomes a place where we compare notes openly and start the collaborations that will bring breathing control to more patients across Korea. I look forward to welcoming you in Seoul.</p>
+          <p>존경하는 선생님들께,</p>
+          <p>2027년 3월 5일 연세암병원에서 열리는 Symposium on Breathing Control for Radiation Therapy in Korea에 선생님들을 모시게 되어 기쁩니다.</p>
+          <p>지난 몇 년 사이 CPAP과 비침습적 기계환기(NIMV)는 국내 여러 기관에서 초기 경험을 넘어 일상 진료로 자리 잡아 가고 있습니다. 각 기관은 환자 선택, 설정, 직원 교육, 움직임 확인 방법을 대부분 독자적으로 익혀 왔습니다. 이제는 이 경험을 함께 모을 때라고 생각합니다.</p>
+          <p>이번 심포지엄은 세 개의 세션으로 구성됩니다. 첫 번째 세션은 CPAP 임상 경험, 두 번째 세션은 NIMV 도입을 위한 물리와 팀워크, 세 번째 세션은 NIMV-60을 기반으로 한 최신 접근법을 다룹니다. 세션 사이에는 벤틸레이터가 실제로 작동하는 모습을 현장 시연으로 보실 수 있습니다.</p>
+          <p>이 자리가 서로의 경험을 솔직하게 나누고, 더 많은 환자에게 호흡 제어 치료를 제공하기 위한 협력이 시작되는 계기가 되기를 바랍니다. 서울에서 뵙기를 기대합니다.</p>
         </blockquote>
-        <p class="signature">Jee Suk Chang</p>
+        <p class="signature">장지석</p>
       </div>
     </div>
   </section>
 
   <section id="program" aria-labelledby="program-title">
     <div class="container">
-      <p class="section-label">Program</p>
-      <h2 id="program-title">Friday, 5 March 2027</h2>
-      <div class="program-meta"><span>13:00–18:20 KST</span><span>Each talk is 20 minutes plus 5 minutes of discussion</span></div>
+      <p class="section-label">프로그램</p>
+      <h2 id="program-title">2027년 3월 5일 (금)</h2>
+      <div class="program-meta"><span>13:00–18:20</span><span>발표 20분 + 질의응답 5분</span></div>
       <table class="program">
         <tbody>
-      <tr class="plain"><td class="time">13:00–13:05</td><td colspan="2"><div class="talk">Introduction</div></td></tr>
-      <tr class="plain"><td class="time">13:05–13:10</td><td colspan="2"><div class="talk">Welcome Address</div></td></tr>
+      <tr class="plain"><td class="time">13:00–13:05</td><td colspan="2"><div class="talk">개회</div></td></tr>
+      <tr class="plain"><td class="time">13:05–13:10</td><td colspan="2"><div class="talk">환영사</div></td></tr>
       <tr class="session"><td colspan="3"><span class="s-num">SESSION I</span>
-        <span class="s-title">CPAP in Clinical Practice</span> <span class="s-chair">· Chair to be announced</span></td></tr>
+        <span class="s-title">CPAP 임상 적용</span> <span class="s-chair">· 좌장 추후 공지</span></td></tr>
       <tr><td class="time">13:10–13:35</td>
-        <td><div class="talk">CPAP</div><div class="who">Dosol Yoo <span>· Dongnam Institute of Radiological &amp; Medical Sciences</span></div></td>
+        <td><div class="talk">CPAP</div><div class="who">유도솔 교수 <span>· 동남권원자력의학원</span></div></td>
         <td class="type"><span class="badge badge-md">MD Talk</span></td></tr>
       <tr><td class="time">13:35–14:00</td>
-        <td><div class="talk">CPAP</div><div class="who">Joon Bok Lee <span>· Kangbuk Samsung Hospital</span></div></td>
+        <td><div class="talk">CPAP</div><div class="who">이준복 교수 <span>· 강북삼성병원</span></div></td>
         <td class="type"><span class="badge badge-md">MD Talk</span></td></tr>
       <tr><td class="time">14:00–14:25</td>
-        <td><div class="talk">CPAP</div><div class="who">Ji Hyun Chang <span>· Seoul National University Hospital</span></div></td>
+        <td><div class="talk">CPAP</div><div class="who">장지현 교수 <span>· 서울대학교병원</span></div></td>
         <td class="type"><span class="badge badge-md">MD Talk</span></td></tr>
-      <tr class="break"><td class="time">14:25–14:45</td><td colspan="2"><div class="talk">Coffee Break</div></td></tr>
+      <tr class="break"><td class="time">14:25–14:45</td><td colspan="2"><div class="talk">휴식</div></td></tr>
       <tr class="session"><td colspan="3"><span class="s-num">SESSION II</span>
-        <span class="s-title">Building an NIMV Program</span> <span class="s-chair">· Chair to be announced</span></td></tr>
+        <span class="s-title">NIMV 프로그램 구축</span> <span class="s-chair">· 좌장 추후 공지</span></td></tr>
       <tr><td class="time">14:45–15:10</td>
-        <td><div class="talk">Implementation of NIMV into Radiation Therapy</div><div class="who">Changhwan Kim <span>· Yonsei Cancer Center</span></div></td>
+        <td><div class="talk">Implementation of NIMV into Radiation Therapy</div><div class="who">김창환 교수 <span>· 연세암병원</span></div></td>
         <td class="type"><span class="badge badge-mp">Medical Physics Talk</span></td></tr>
       <tr><td class="time">15:10–15:35</td>
-        <td><div class="talk">Respiratory Education Team</div><div class="who">Jinhong Jung <span>· Asan Medical Center</span></div></td>
+        <td><div class="talk">Respiratory Education Team</div><div class="who">정진홍 교수 <span>· 서울아산병원</span></div></td>
         <td class="type"><span class="badge badge-md">MD Talk</span></td></tr>
       <tr><td class="time">15:35–16:00</td>
-        <td><div class="talk">Implementation of NIMV into Particle Therapy</div><div class="who">Sang Hoon Jung <span>· Samsung Medical Center</span></div></td>
+        <td><div class="talk">Implementation of NIMV into Particle Therapy</div><div class="who">정상훈 교수 <span>· 삼성서울병원</span></div></td>
         <td class="type"><span class="badge badge-mp">Medical Physics Talk</span></td></tr>
-      <tr class="break"><td class="time">16:00–17:00</td><td colspan="2"><div class="talk">Break and Live NIMV Demonstration</div></td></tr>
+      <tr class="break"><td class="time">16:00–17:00</td><td colspan="2"><div class="talk">휴식 및 NIMV 현장 시연</div></td></tr>
       <tr class="session"><td colspan="3"><span class="s-num">SESSION III</span>
-        <span class="s-title">NIMV-60p in Practice</span> <span class="s-chair">· Chair to be announced</span></td></tr>
+        <span class="s-title">NIMV-60p 임상 경험</span> <span class="s-chair">· 좌장 추후 공지</span></td></tr>
       <tr><td class="time">17:00–17:25</td>
-        <td><div class="talk">NIMV-60p</div><div class="who">Nalee Kim <span>· Samsung Medical Center</span></div></td>
+        <td><div class="talk">NIMV-60p</div><div class="who">김나리 교수 <span>· 삼성서울병원</span></div></td>
         <td class="type"><span class="badge badge-md">MD Talk</span></td></tr>
       <tr><td class="time">17:25–17:50</td>
-        <td><div class="talk">NIMV-60p + MANIV-DIBH</div><div class="who">Jee Suk Chang <span>· Yonsei Cancer Center</span></div></td>
+        <td><div class="talk">NIMV-60p + MANIV-DIBH</div><div class="who">장지석 교수 <span>· 연세암병원</span></div></td>
         <td class="type"><span class="badge badge-md">MD Talk</span></td></tr>
       <tr><td class="time">17:50–18:15</td>
-        <td><div class="talk">NIMV-60p</div><div class="who">Hwa Kyung Byun <span>· Yongin Severance Hospital</span></div></td>
+        <td><div class="talk">NIMV-60p</div><div class="who">변화경 교수 <span>· 용인세브란스병원</span></div></td>
         <td class="type"><span class="badge badge-md">MD Talk</span></td></tr>
-      <tr class="plain"><td class="time">18:15–18:20</td><td colspan="2"><div class="talk">Closing Remarks</div></td></tr>
+      <tr class="plain"><td class="time">18:15–18:20</td><td colspan="2"><div class="talk">폐회</div></td></tr>
         </tbody>
       </table>
     </div>
@@ -153,52 +161,52 @@
 
   <section id="speakers" class="section-alt" aria-labelledby="speakers-title">
     <div class="container">
-      <p class="section-label">Speakers</p>
-      <h2 id="speakers-title">Invited speakers</h2>
+      <p class="section-label">연자</p>
+      <h2 id="speakers-title">초청 연자</h2>
       <div class="speakers">
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/dosol_yoo.jpg" width="400" height="400" alt="Photo of Dosol Yoo" loading="lazy">
-        <div><h3>Dosol Yoo</h3><p class="aff">Dongnam Institute of Radiological &amp; Medical Sciences</p>
+        <img class="avatar" src="assets/img/speakers/dosol_yoo.jpg" width="400" height="400" alt="유도솔 교수 사진" loading="lazy">
+        <div><h3>유도솔 교수</h3><p class="aff">동남권원자력의학원</p>
           <p class="topic">CPAP</p></div>
       </article>
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/joonbok_lee.jpg" width="400" height="400" alt="Photo of Joon Bok Lee" loading="lazy">
-        <div><h3>Joon Bok Lee</h3><p class="aff">Kangbuk Samsung Hospital</p>
+        <img class="avatar" src="assets/img/speakers/joonbok_lee.jpg" width="400" height="400" alt="이준복 교수 사진" loading="lazy">
+        <div><h3>이준복 교수</h3><p class="aff">강북삼성병원</p>
           <p class="topic">CPAP</p></div>
       </article>
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/jihyun_chang.jpg" width="400" height="400" alt="Photo of Ji Hyun Chang" loading="lazy">
-        <div><h3>Ji Hyun Chang</h3><p class="aff">Seoul National University Hospital</p>
+        <img class="avatar" src="assets/img/speakers/jihyun_chang.jpg" width="400" height="400" alt="장지현 교수 사진" loading="lazy">
+        <div><h3>장지현 교수</h3><p class="aff">서울대학교병원</p>
           <p class="topic">CPAP</p></div>
       </article>
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/changhwan_kim.jpg" width="400" height="400" alt="Photo of Changhwan Kim" loading="lazy">
-        <div><h3>Changhwan Kim</h3><p class="aff">Yonsei Cancer Center</p>
+        <img class="avatar" src="assets/img/speakers/changhwan_kim.jpg" width="400" height="400" alt="김창환 교수 사진" loading="lazy">
+        <div><h3>김창환 교수</h3><p class="aff">연세암병원</p>
           <p class="topic">Implementation of NIMV into Radiation Therapy</p></div>
       </article>
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/jinhong_jung.jpg" width="400" height="400" alt="Photo of Jinhong Jung" loading="lazy">
-        <div><h3>Jinhong Jung</h3><p class="aff">Asan Medical Center</p>
+        <img class="avatar" src="assets/img/speakers/jinhong_jung.jpg" width="400" height="400" alt="정진홍 교수 사진" loading="lazy">
+        <div><h3>정진홍 교수</h3><p class="aff">서울아산병원</p>
           <p class="topic">Respiratory Education Team</p></div>
       </article>
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/sanghoon_jung.jpg" width="400" height="400" alt="Photo of Sang Hoon Jung" loading="lazy">
-        <div><h3>Sang Hoon Jung</h3><p class="aff">Samsung Medical Center</p>
+        <img class="avatar" src="assets/img/speakers/sanghoon_jung.jpg" width="400" height="400" alt="정상훈 교수 사진" loading="lazy">
+        <div><h3>정상훈 교수</h3><p class="aff">삼성서울병원</p>
           <p class="topic">Implementation of NIMV into Particle Therapy</p></div>
       </article>
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/nalee_kim.jpg" width="400" height="400" alt="Photo of Nalee Kim" loading="lazy">
-        <div><h3>Nalee Kim</h3><p class="aff">Samsung Medical Center</p>
+        <img class="avatar" src="assets/img/speakers/nalee_kim.jpg" width="400" height="400" alt="김나리 교수 사진" loading="lazy">
+        <div><h3>김나리 교수</h3><p class="aff">삼성서울병원</p>
           <p class="topic">NIMV-60p</p></div>
       </article>
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/jeesuk_chang.jpg" width="400" height="400" alt="Photo of Jee Suk Chang" loading="lazy">
-        <div><h3>Jee Suk Chang</h3><p class="aff">Yonsei Cancer Center</p>
+        <img class="avatar" src="assets/img/speakers/jeesuk_chang.jpg" width="400" height="400" alt="장지석 교수 사진" loading="lazy">
+        <div><h3>장지석 교수</h3><p class="aff">연세암병원</p>
           <p class="topic">NIMV-60p + MANIV-DIBH</p></div>
       </article>
       <article class="speaker">
-        <img class="avatar" src="assets/img/speakers/hwakyung_byun.jpg" width="400" height="400" alt="Photo of Hwa Kyung Byun" loading="lazy">
-        <div><h3>Hwa Kyung Byun</h3><p class="aff">Yongin Severance Hospital</p>
+        <img class="avatar" src="assets/img/speakers/hwakyung_byun.jpg" width="400" height="400" alt="변화경 교수 사진" loading="lazy">
+        <div><h3>변화경 교수</h3><p class="aff">용인세브란스병원</p>
           <p class="topic">NIMV-60p</p></div>
       </article>
       </div>
@@ -209,16 +217,16 @@
     <div class="container">
       <div class="reg-card">
         <div>
-          <p class="section-label">Registration</p>
-          <h2 id="registration-title">Registration opens soon</h2>
-          <p>Registration details, including the online form and any fee, will be posted on this page. Please check back for updates.</p>
-          <a class="btn" href="#registration" aria-disabled="true">Register (coming soon)</a>
+          <p class="section-label">사전등록</p>
+          <h2 id="registration-title">사전등록 안내 예정</h2>
+          <p>온라인 등록 양식과 등록비 등 세부 사항은 이 페이지에 게시될 예정입니다.</p>
+          <a class="btn" href="#registration" aria-disabled="true">사전등록 (준비 중)</a>
         </div>
         <ul class="reg-list">
-          <li>Date <span>Friday, 5 March 2027</span></li>
-          <li>Time <span>13:00–18:20 KST</span></li>
-          <li>Venue <span>SEOAM Auditorium (B3)</span></li>
-          <li>Format <span>In person, with live demonstration</span></li>
+          <li>일시 <span>2027년 3월 5일 (금)</span></li>
+          <li>시간 <span>13:00–18:20</span></li>
+          <li>장소 <span>서암강당 (지하 3층)</span></li>
+          <li>형식 <span>오프라인, 현장 시연 포함</span></li>
         </ul>
       </div>
     </div>
@@ -226,23 +234,23 @@
 
   <section id="venue" class="section-alt" aria-labelledby="venue-title">
     <div class="container">
-      <p class="section-label">Venue</p>
-      <h2 id="venue-title">Yonsei Cancer Center, Seoul</h2>
+      <p class="section-label">오시는 길</p>
+      <h2 id="venue-title">연세암병원 서암강당</h2>
       <div class="venue">
         <div>
           <dl>
-            <div><dt>Venue</dt><dd>SEOAM Auditorium, 3rd basement level (B3)<br>Yonsei Cancer Center, Severance Hospital</dd></div>
-            <div><dt>Address</dt><dd>50-1 Yonsei-ro, Seodaemun-gu, Seoul 03722, Republic of Korea</dd></div>
-            <div><dt>Subway</dt><dd>Sinchon Station (Line 2), about a 10-minute walk to the hospital</dd></div>
+            <div><dt>장소</dt><dd>연세암병원 지하 3층 서암강당 (B3)<br>세브란스병원</dd></div>
+            <div><dt>주소</dt><dd>서울특별시 서대문구 연세로 50-1 (03722)</dd></div>
+            <div><dt>지하철</dt><dd>2호선 신촌역에서 병원까지 도보 약 10분</dd></div>
           </dl>
           <div class="btns">
-            <a class="btn btn-primary" href="https://map.naver.com/p/search/%EC%97%B0%EC%84%B8%EC%95%94%EB%B3%91%EC%9B%90" target="_blank" rel="noopener">Naver Map</a>
-            <a class="btn btn-ghost" href="https://maps.google.com/?q=Yonsei+Cancer+Center+Seoul" target="_blank" rel="noopener">Google Maps</a>
+            <a class="btn btn-primary" href="https://map.naver.com/p/search/%EC%97%B0%EC%84%B8%EC%95%94%EB%B3%91%EC%9B%90" target="_blank" rel="noopener">네이버 지도</a>
+            <a class="btn btn-ghost" href="https://maps.google.com/?q=Yonsei+Cancer+Center+Seoul" target="_blank" rel="noopener">구글 지도</a>
           </div>
         </div>
         <div class="map">
-          <iframe title="Map of Yonsei Cancer Center" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                  src="https://maps.google.com/maps?q=Yonsei%20Cancer%20Center%2C%20Seoul&z=16&output=embed"></iframe>
+          <iframe title="연세암병원 지도" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  src="https://maps.google.com/maps?q=Yonsei%20Cancer%20Center%2C%20Seoul&z=16&hl=ko&output=embed"></iframe>
         </div>
       </div>
     </div>
@@ -250,12 +258,12 @@
 
   <section id="poster" aria-labelledby="poster-title">
     <div class="container poster-wrap">
-      <img src="assets/img/poster.jpg" width="1015" height="1433" alt="Symposium poster">
+      <img src="assets/img/poster.jpg" width="1015" height="1433" alt="심포지엄 포스터">
       <div>
-        <p class="section-label">Poster</p>
-        <h2 id="poster-title">Share the poster</h2>
-        <p class="lead">Feel free to print the poster or share it with colleagues in your department.</p>
-        <div class="btns"><a class="btn btn-primary" href="assets/img/poster.jpg" download="BreathingControl2027_Poster.jpg">Download Poster</a></div>
+        <p class="section-label">포스터</p>
+        <h2 id="poster-title">포스터 공유</h2>
+        <p class="lead">포스터를 출력하거나 동료 선생님들과 자유롭게 공유해 주세요.</p>
+        <div class="btns"><a class="btn btn-primary" href="assets/img/poster.jpg" download="BreathingControl2027_Poster.jpg">포스터 다운로드</a></div>
       </div>
     </div>
   </section>
@@ -265,7 +273,7 @@
   <div class="container">
     <div class="footer-top">
       <div>
-        <p class="footer-label">ORGANIZED BY</p>
+        <p class="footer-label">주최</p>
         <div class="footer-logos">
           <img src="assets/img/ycc_logo_white.png" alt="Yonsei Cancer Center">
           <img src="assets/img/hitri_logo_white.png" alt="Heavy Ion Therapy Research Institute">
@@ -281,6 +289,10 @@
   const t = document.querySelector('.nav-toggle'), l = document.querySelector('.nav-links');
   t.addEventListener('click', () => { const o = l.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
   l.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { l.classList.remove('open'); t.setAttribute('aria-expanded', false); }));
+  // keep the current section when switching language
+  document.querySelectorAll('.lang-switch a').forEach(a => a.addEventListener('click', e => {
+    if (location.hash) { e.preventDefault(); location.href = a.getAttribute('href') + location.hash; }
+  }));
 </script>
 </body>
 </html>
