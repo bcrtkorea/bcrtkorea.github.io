@@ -17,7 +17,7 @@ assets/img/                ← 히어로 그림, 포스터, 로고, 장지석 �
 
 | 바꿀 내용 | 검색어 |
 |---|---|
-| 연자 영문 이름·소속 | 이름 (예: `Dosol Yoo`) — 프로그램 표와 Speakers 카드 두 곳 모두 수정 |
+| 연자 영문 이름·소속 | 이름 (예: `Tosol Yu`) — 프로그램 표와 Speakers 카드 두 곳 모두 수정 |
 | 발표 제목 | `CPAP`, `NIMV-60p` |
 | 좌장 | `Chair to be announced` |
 | 등록 링크 | `Register (coming soon)` — `href="#registration" aria-disabled="true"`를 `href="구글폼 주소"`로 바꾸고 `aria-disabled` 삭제 |
