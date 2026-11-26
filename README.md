@@ -1,6 +1,6 @@
 # Symposium on Breathing Control for Radiation Therapy in Korea (2027)
 
-2027년 3월 5일(금) 13:00–18:20, 연세암병원 서암강당(B3) 심포지엄 홈페이지입니다.
+2027년 4월 16일(금) 13:00–17:35, 연세암병원 서암강당(B3) 심포지엄 홈페이지입니다.
 GitHub Pages에 그대로 올릴 수 있는 정적 사이트(HTML/CSS)입니다.
 
 ## 폴더 구성
